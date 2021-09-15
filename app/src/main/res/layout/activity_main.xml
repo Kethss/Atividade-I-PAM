@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/App4">
+
+    // Samuel Silva Costa e Kethllyn da Silva Santos
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Burguer DS"
+        android:textSize="50dp"
+        android:layout_marginTop="20sp"
+        android:textColor="@color/App2" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:src="@drawable/Logo01"/>
+
+    <Button
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fazer pedido"
+        android:background="@drawable/roundcorner"
+
+        />
+
+    <Button
+        android:layout_marginTop="8sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Criar conta"
+        android:background="@drawable/roundcorner"
+        />
+</LinearLayout>
